@@ -1,0 +1,83 @@
+<style type="text/css"><!--
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  color: #888;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: left;
+  margin: 10px auto;
+  
+}
+
+.stuff {
+  width: 1300px;
+  margin: auto;
+  text-align: left; 
+  font-size: 25px; 
+}
+
+#example-holder
+{
+    border: 1px solid #999;
+    padding:5px;
+    background: #c0c0c0;
+    width: 430px;
+    height: 340px;
+    position: relative;
+    text-align: left; 
+}
+
+#drawing-area
+{
+    border: 1px solid #000;
+    background: white;
+    width:300px;
+    height:300px;
+    position: absolute;
+    display: inline;
+    top:5px;
+    left: 5px;
+    margin-right: 100px; 
+}
+
+#downsampleView
+{
+    border: 1px solid #000;
+    background: white;
+    width: 110px;
+    height: 120px;
+    position: absolute;
+    display: inline;
+    top:5px;
+    left:313px;
+    
+}
+
+#lstLetters
+{
+    border: 1px solid #000;
+    width:112px;
+    height: 171px;
+    position: absolute;
+    display: inline;
+    left: 313px;
+    top: 137px;
+}
+
+#example-btn1
+{
+    border: 1px solid #000;
+    position: absolute;
+    display: inline;
+    width: 416px;
+    top:315px;
+}
